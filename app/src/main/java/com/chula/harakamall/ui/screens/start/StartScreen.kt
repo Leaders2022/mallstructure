@@ -44,7 +44,7 @@ fun StartScreen(navController: NavController){
     ){
 
         Text(
-            text = "HarakaMall",
+            text = "Garden City Mall",
             fontSize = 20.sp
         )
 
@@ -52,7 +52,7 @@ fun StartScreen(navController: NavController){
 
         //Circular Image
         Image(
-            painter = painterResource(R.drawable.mall1),
+            painter = painterResource(R.drawable.mall3),
             contentDescription = "home",
             modifier = Modifier
                 .size(300.dp)
@@ -65,7 +65,7 @@ fun StartScreen(navController: NavController){
         Spacer(modifier = Modifier.height(20.dp))
 
         Text(
-            text = "Find Your Oder!!!",
+            text = "Find Your Oder!",
             fontSize = 30.sp,
             fontWeight = FontWeight.ExtraBold,
             color = neworange
@@ -74,7 +74,7 @@ fun StartScreen(navController: NavController){
         Spacer(modifier = Modifier.height(20.dp))
 
         Text(
-            text = "Baraka Mall, Jordan's first luxury mall, features world- class shopping, dining, entertainment, and services unparalleled to any other shopping experience in ",
+            text = "Garden City Mall, Jordan's first luxury mall, features world- class shopping, dining, entertainment, and services unparalleled to any other shopping experience in ",
             textAlign = TextAlign.Center,
             fontSize = 18.sp
 

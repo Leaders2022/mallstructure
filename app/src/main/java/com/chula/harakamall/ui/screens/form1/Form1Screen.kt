@@ -53,6 +53,7 @@ import androidx.core.net.toUri
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.chula.harakamall.R
+import com.chula.harakamall.navigation.ROUT_FORM
 import com.chula.harakamall.ui.theme.blue1
 import com.chula.harakamall.ui.theme.neworange
 import com.chula.harakamall.ui.theme.neworange1
@@ -95,7 +96,7 @@ fun Form1Screen(navController: NavController){
                         Column() {
 
                             Text(
-                                text = "LOGO APP",
+                                text = "LOG IN",
                                 fontSize = 20.sp,
                                 fontWeight = FontWeight.ExtraBold,
                                 color = newwhite
